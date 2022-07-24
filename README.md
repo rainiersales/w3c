@@ -26,7 +26,15 @@ yarn install
 To run the scenarios you have to execute the command bellow:
 
 ```shell
+// Visual interface 
 yarn run e2e
+
+// Cypress dashboard in parallel for chrome and firefox 
+yarn firefox-chrome-parallel
+
+// Percy dashboard
+export PERCY_TOKEN=bfb5870b79cfb77984797322b7a8f60737f976e401f5a1ac102d4598b1622124
+yarn visual
 ```
 
 # License
