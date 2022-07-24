@@ -1,0 +1,14 @@
+{
+  "badpage": {
+    "pageName": "badpage",
+    "pageUrl": "standards/badpage"
+  },
+  "multimodal": {
+    "pageName": "multimodal",
+    "pageUrl": "standards/webofdevices/multimodal"
+  },
+  "htmlcss": {
+    "pageName": "htmlcss",
+    "pageUrl": "standards/webdesign/htmlcss"
+  }
+}

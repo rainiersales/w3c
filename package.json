@@ -1,0 +1,39 @@
+{
+  "name": "w3c",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "e2e": "cypress open",
+    "visual": "percy exec -- cypress run",
+    "dashboard": "npx cypress run --record --key 5a5913ca-1590-4532-8f7e-af1320af62f8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rainiersales/w3c.git"
+  },
+  "author": "Rainier Sales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rainiersales/w3c/issues"
+  },
+  "homepage": "https://github.com/rainiersales/w3c#readme",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "e2e/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
+  "devDependencies": {
+    "@percy/cli": "^1.1.0",
+    "@percy/cypress": "^3.1.1",
+    "cypress": "^9.5.4",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  }
+}
