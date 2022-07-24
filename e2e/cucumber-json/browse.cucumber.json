@@ -1,0 +1,162 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Search feature sample",
+    "line": 1,
+    "id": "search-feature-sample",
+    "tags": [],
+    "uri": "browse.feature",
+    "elements": [
+      {
+        "id": "search-feature-sample;as-a-generical-user,-i-should-be-able-to-browse-\"badpage\"-and-check-correct-status-code,-there-are-no-console-errors-or-broken-links",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "As a generical user, I should be able to browse \"badpage\" and check correct status code, there are no console errors or broken links",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the \"badpage\" with \"standards/badpage\"",
+            "result": {
+              "status": "passed",
+              "duration": 2173000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "should check response code \"404\" from the page \"badpage\"",
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "shoud have no console errors",
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "shoud have no broken links",
+            "result": {
+              "status": "passed",
+              "duration": 440000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-feature-sample;as-a-generical-user,-i-should-be-able-to-browse-\"multimodal\"-and-check-correct-status-code,-there-are-no-console-errors-or-broken-links",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "As a generical user, I should be able to browse \"multimodal\" and check correct status code, there are no console errors or broken links",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the \"multimodal\" with \"standards/webofdevices/multimodal\"",
+            "result": {
+              "status": "passed",
+              "duration": 962000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "should check response code \"200\" from the page \"multimodal\"",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "shoud have no console errors",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "shoud have no broken links",
+            "result": {
+              "status": "passed",
+              "duration": 309000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-feature-sample;as-a-generical-user,-i-should-be-able-to-browse-\"htmlcss\"-and-check-correct-status-code,-there-are-no-console-errors-or-broken-links",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "As a generical user, I should be able to browse \"htmlcss\" and check correct status code, there are no console errors or broken links",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the \"htmlcss\" with \"standards/webdesign/htmlcss\"",
+            "result": {
+              "status": "passed",
+              "duration": 472000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "should check response code \"200\" from the page \"htmlcss\"",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "shoud have no console errors",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "shoud have no broken links",
+            "result": {
+              "status": "passed",
+              "duration": 327000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
