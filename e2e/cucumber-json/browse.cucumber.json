@@ -22,7 +22,7 @@
             "name": "I navigate to the \"badpage\" with \"standards/badpage\"",
             "result": {
               "status": "passed",
-              "duration": 1504000000
+              "duration": 1605000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "should check response code \"404\" from the page \"badpage\"",
             "result": {
               "status": "passed",
-              "duration": 20000000
+              "duration": 16000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "shoud have no console errors",
             "result": {
               "status": "passed",
-              "duration": 17000000
+              "duration": 11000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "shoud have no broken links",
             "result": {
               "status": "passed",
-              "duration": 1688000000
+              "duration": 1746000000
             }
           }
         ]
@@ -72,7 +72,7 @@
             "name": "I navigate to the \"multimodal\" with \"standards/webofdevices/multimodal\"",
             "result": {
               "status": "passed",
-              "duration": 973000000
+              "duration": 998000000
             }
           },
           {
@@ -102,7 +102,7 @@
             "name": "shoud have no broken links",
             "result": {
               "status": "passed",
-              "duration": 1235000000
+              "duration": 1119000000
             }
           }
         ]
@@ -122,7 +122,7 @@
             "name": "I navigate to the \"htmlcss\" with \"standards/webdesign/htmlcss\"",
             "result": {
               "status": "passed",
-              "duration": 667000000
+              "duration": 657000000
             }
           },
           {
@@ -152,7 +152,7 @@
             "name": "shoud have no broken links",
             "result": {
               "status": "passed",
-              "duration": 1240000000
+              "duration": 1019000000
             }
           }
         ]

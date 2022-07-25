@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "cypress run",
     "e2e": "cypress open",
     "local-chrome": "npx cypress run --browser chrome",
     "local-firefox": "npx cypress run --browser firefox",
     "visual": "percy exec -- cypress run",
     "dashboard-firefox": "npx cypress run --record --key 5a5913ca-1590-4532-8f7e-af1320af62f8 --browser firefox",
     "dashboard-chrome": "npx cypress run --record --key 5a5913ca-1590-4532-8f7e-af1320af62f8 --browser chrome",
-    "firefox-chrome-parallel": "yarn dashboard-chrome & yarn dashboard-firefox"
+    "firefox-chrome-parallel": "yarn dashboard-chrome & yarn dashboard-firefox",
+    "docker": "docker run -it -v $PWD:/e2e -w /e2e cypress/included:9.5.4"
   },
   "repository": {
     "type": "git",
